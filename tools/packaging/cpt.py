@@ -31,7 +31,7 @@ if sys.version_info < (3, 0):
 else:
     # Python 3.x
     from urllib.request import urlopen
-
+    from importlib import reload
 import argparse
 import os
 import platform
